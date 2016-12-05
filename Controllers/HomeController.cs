@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,7 +17,7 @@ namespace WebApplicationBasic.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-            ViewData["OSDescription"] = System.Runtime.InteropServices.RuntimeInformation.OSDescription;
+            ViewData["OSDescription"] = RuntimeInformation.OSDescription;
 
             return View();
         }

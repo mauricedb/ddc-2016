@@ -1,4 +1,6 @@
-FROM microsoft/dotnet:1.1.0-sdk-projectjson-nanoserver
+FROM microsoft/dotnet:latest
+
+MAINTAINER Maurice de Beijer
 
 COPY . /app
 
