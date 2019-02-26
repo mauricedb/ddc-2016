@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "wwwroot/lib/bootstrap/package.json",
+        "wwwroot/lib/jquery-validation/package.json"
+      ]
+    }
+  }
+}
